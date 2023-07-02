@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="screen join-screen active">
+      <div className="screen join-screen">
         <div className="form">
           <h2>Join Chatroom</h2>
           <div className="form-input">
@@ -18,7 +18,7 @@ function App() {
           </div>
         </div>
       </div>
-        <div className='screen chat-screen'>
+        <div className='screen chat-screen active'>
           <div className="header">
             <div className="logo">Chatroom</div>
             <button id='exit-chat'>Exit</button>
