@@ -17,6 +17,7 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
         <div className='screen chat-screen'>
           <div className="header">
             <div className="logo">Chatroom</div>
@@ -39,7 +40,6 @@ function App() {
             <button id='send-message'>Send</button>
           </div>
         </div>
-      </div>
     </div>
   );
 }
